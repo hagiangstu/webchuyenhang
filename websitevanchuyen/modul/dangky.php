@@ -1,3 +1,4 @@
+trung da sua
 <?php
 	try{
 	$pdh=new PDO("mysql:host=localhost;dbname=webchuyenhang","root","");
