@@ -1,4 +1,4 @@
-thành sửa
+Thành đã sửa
 <?php
 
 print_r($_GET);
