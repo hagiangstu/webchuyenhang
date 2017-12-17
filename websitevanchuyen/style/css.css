@@ -1,0 +1,111 @@
+@charset "utf-8";
+/* CSS Document */
+.{
+	padding:0;
+	margin:0;
+}
+.wrapper{
+	width:100%;
+	height:auto;
+	border:1px solid #000;
+	margin:auto;
+}
+.header{
+	width:100%;
+	height:120px;
+	border:1px solid #000;
+}
+.menu{
+	width:100%;
+	height:30px;
+	background:#090;
+	border:1px solid #000;
+}
+.menu ul{
+	width:100%;
+	height:30px;
+	margin:2px;
+	list-style:none;
+}
+.menu ul li{
+	float:left;
+	line-height:30px;
+	margin-left:30px;
+}
+.menu ul li a{
+	color:#FFF;
+	text-decoration:none;
+}
+.menu a:hover{
+	text-decoration:underline;
+}
+.content{
+	width:100%;
+	height:800px;
+	background: #090;
+	border:1px solid #000;
+}
+.left{
+	width:25%;
+	height:800px;
+	background:#FFF;
+	border:1px solid #000;
+	float:left;
+}
+.danhsachmuc ul{
+	width:90%;
+	height:auto;
+	margin-top:auto;
+	list-style:none;
+}
+.danhsachmuc ul li{
+	margin:10%;
+}
+.danhsachmuc a{
+	text-decoration:none;
+	color:#000;
+}
+.danhsachmuc a:hover{
+	text-decoration:underline;
+}
+.right{
+	width:74%;
+	height:800px;
+	border:1px solid #000;
+	background:#FFF;
+	float:right;
+}
+.thongtingiaca ul{
+	width:100%;
+	list-style:none;
+}
+.thongtingiaca ul li{
+	border:1px solid #000;
+	width:300px;
+	float:left;
+	margin-left:95px;
+	text-align:center;
+}
+.thongtingiaca a{
+	text-decoration:none;
+	color:#000;
+}
+.thongtingiaca a:hover{
+	text-decoration:underline;
+}
+.clear{
+	clear:both;
+}
+.footer{
+	width: 100%;
+	height: 50px;
+	background-color:#999;
+	border: 1px solid #000;
+	text-align: center;
+	font-size:11px;
+}
+.timkiem
+{
+	text-height:font-size;
+}
+.fieldset{width:50%; margin:100px auto;}
