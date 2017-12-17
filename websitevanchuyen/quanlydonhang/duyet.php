@@ -1,3 +1,4 @@
+thành sửa
 <?php
 
 print_r($_GET);
