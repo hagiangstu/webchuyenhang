@@ -1,3 +1,4 @@
+huy đã sửa
 <?php
 print_r($_GET);
 $ten=$_GET["ten"];
