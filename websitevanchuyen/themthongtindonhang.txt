@@ -1,0 +1,20 @@
+<?php 
+	
+
+	try{
+	$pdh=new PDO("mysql:host=localhost;dbname=webchuyenhang","root","");
+	$pdh->query("set name 'utf8'");
+	}
+	catch(Exception $e){
+		echo $e->getMessage(); exit;
+	}
+		
+		
+			$stmt=$pdh->prepare("Select * from thongtindonhang	JOIN hinhthucchuyen ON thongtindonhang.Hinhthucchuyen = 		      	   																		hinhthucchuyen.Maloai
+																JOIN thanhtoan ON thongtindonhang.Thanhtoan = thanhtoan.Maloaitt
+																JOIN loaihang ON thongtindonhang.Loaihang = loaihang.Maloaihang																
+																		 where IDdonhang=".$ma);
+			$stmt->execute();
+			$r=$stmt->fetchAll();
+					
+?>
